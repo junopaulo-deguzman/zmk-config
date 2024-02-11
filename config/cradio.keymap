@@ -11,17 +11,12 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <behaviors.dtsi>
 
-#define COLEMAK 0
+#define COLEMAKDH 0
 #define NAV 1
 #define NUM 2
 #define SYM 3
 #define FUN 4
 
-/* krita base */
-#define KRB 5
-
-/* play */
-#define PLAY 6
 
 
 &mt {
@@ -164,23 +159,5 @@
                                      &trans &trans        &trans   &kp N0
                 >;
         };
-
-        krita_base_layer {
-            bindings = <
-                &kp M      &trans &kp BSLH  &kp LBKT      &kp RBKT       &trans    &trans   &trans &trans    &trans
-                &trans     &trans &kp F     &kp I         &kp O          &trans    &trans   &trans &trans    &trans
-                &kp LC(S)  &trans &kp P     &kp K         &kp L          &trans    &trans   &trans &trans    &trans
-                                            &kp LS(LC(Z)) &kp LC(Z)      &trans    &trans
-                >;
-       };
-
-        draw {
-            bindings = <
-                &kp Q   &kp W  &kp E     &kp R         &kp T          &kp Y     &kp U         &kp I          &kp O      &kp P
-                &kp N1  &kp S  &kp N3    &mt LCTRL F   &kp G          &kp H     &mt LCTRL J   &mt RSHIFT K   &mt LALT L &mt LGUI SCLN
-                &kp Z   &kp X  &kp C     &kp V         &kp B          &kp M     &kp LEFT      &kp DOWN       &kp RIGHT  &trans
-                                         &kp R         &kp U          &kp RET   &kp BSPC
-                >;
-       };
     };
 };
