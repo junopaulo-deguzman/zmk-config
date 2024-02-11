@@ -125,7 +125,7 @@
                   &kp Q      &kp W       &kp F        &kp P         &kp B                  &kp J              &kp L           &kp U        &kp Y        &kp SCLN
                   &kp A      &kp R       &lt FUN S    &lt NAV T     &kp G                  &kp M             &lt SYM N       &lt NUM E    &kp I        &kp O
                   &kp Z      &kp X       &kp C        &kp D        &kp V                  &kp K              &kp H           &kp CMMA     &kp DOT      &kp FSLH
-                                                      &mt LALT TAB  &mt LGUI SPC           &mt LSHIFT RET     &mt LCTRL BSPC
+                                                      &mt LALT TAB  &mt LSHIFT RET           &mt LGUI SPC     &mt LCTRL BSPC
                 >;
         };
 
