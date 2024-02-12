@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <behaviors.dtsi>
 
-#define COLEMAKDH 0
+#define DEFAULT 0
 #define NAV 1
 #define NUM 2
 #define SYM 3
@@ -123,7 +123,6 @@
                                                       &mt LALT TAB  &mt LSHIFT RET           &mt LGUI SPC     &mt LCTRL BSPC
                 >;
         };
-
         nav_layer {
             bindings = <
                 &bt BT_CLR   &trans &trans &bootloader &sys_reset           &trans      &kp LBRC   &kp RBRC &kp LPAR    &kp RPAR
